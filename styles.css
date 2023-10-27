@@ -41,6 +41,7 @@
     width:fit-content;
     height:fit-content;
 }
+
 .box-layer  {
     opacity: .3;
 }
@@ -122,6 +123,10 @@ a{
     border: 1px solid black;
     border-radius: 10px;
     margin: auto auto;
+}
+.main-image:hover   {
+    max-height: 235px;
+    max-width:410px;
 }
 @media screen() {
     
