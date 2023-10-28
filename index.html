@@ -56,10 +56,14 @@
             <img class="slideshow-image" src="./assets/img/ChefServingFood.webp" alt="A chief alerting others that he has made food.">
         </figure>
 
-        <a href="#" class="slideshow-prev" id="clickButtonPrev">&#10094;</a>
-        <a href="#" class="slideshow-next" id="clickButtonNext">&#10095;</a>
+        <a class="slideshow-prev" onclick="nextSlide(-1)" id="clickButtonPrev">&#10094;</a>
+        <a class="slideshow-next" onclick="nextSlide(1)" id="clickButtonNext">&#10095;</a>
     </section>
-        
+    <div class="dotArea">
+        <span class="dot active " onclick="nowSlide(1)"></span>
+        <span class="dot active " onclick="nowSlide(2)"></span>
+        <span class="dot active " onclick="nowSlide(3)"></span>
+      </div>
     <footer class="restaurant-footer">
         <header>
             <h2>Página feita por Pedro Kauã de Barros Leite</h2>
@@ -71,5 +75,6 @@
             </nav>
         </section>
     </footer>
+    <script defer src="./assets/js/restaurant.js"></script>
 </body>
 </html>
