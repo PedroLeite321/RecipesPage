@@ -224,6 +224,34 @@ a{
     background-color: rgba(0, 0, 0, 0.4);
     border-radius:8px;
 }
+.restaurant-footer  {
+    display:flex;
+    flex-direction:column;
+    max-height:500px;
+    min-height:300px;
+    height:100%;
+    width:100vw;
+}
+.foot-header    {
+    text-align:center;
+    font-size:20px;
+
+}
+.foot-header > h2   {
+    font-weight:200;
+}
+.foot-item {
+
+}
+.foot-nav   {
+    
+}
+.foot-list  {
+    color:black;
+}
+.small-ico  {
+
+}
 @media screen() {
     
 }
