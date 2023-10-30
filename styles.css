@@ -241,15 +241,30 @@ a{
     font-weight:200;
 }
 .foot-item {
+    max-height:3px   ;
+    max-width:500px;
+    min-height:90px;
+    min-width:70px;
+    height:100%;
+    width: 100%;
 
 }
 .foot-nav   {
-    
+    display:flex;
+    flex-direction: row;
 }
 .foot-list  {
     color:black;
 }
 .small-ico  {
+
+}
+.foot-img   {
+    height:100%;
+    width:100%;
+    image-rendering: optimizeQuality;
+    border-radius:8px;
+    border:solid 1px black;
 
 }
 @media screen() {
