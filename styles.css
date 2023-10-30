@@ -227,10 +227,10 @@ a{
 .restaurant-footer  {
     display:flex;
     flex-direction:column;
-    max-height:500px;
-    min-height:300px;
-    height:100%;
-    width:100vw;
+
+}
+.foot-content   {
+
 }
 .foot-header    {
     text-align:center;
@@ -241,20 +241,30 @@ a{
     font-weight:200;
 }
 .foot-item {
-    max-height:3px   ;
-    max-width:500px;
-    min-height:90px;
-    min-width:70px;
-    height:100%;
-    width: 100%;
+    
+    height:50px   ;
+    width:55px;
+    overflow:hidden;
+    
 
 }
+li  {
+    list-style:none
+}
 .foot-nav   {
-    display:flex;
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+.foot-li   {
+   display: flex;
+   align-items: center;
+   margin-right: 20px;
+   padding:10px;
 }
 .foot-list  {
     color:black;
+    margin-right:10px;
 }
 .small-ico  {
 
